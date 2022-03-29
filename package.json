@@ -18,13 +18,14 @@
     "fix:prettier": "prettier --write \"src/**/*.ts\"",
     "build": "njt-vcreator build",
     "build:dev": "node ../../plugin-creator/bin/setup build",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "prepare": "husky install"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "packages/**/*.ts": [
+    "src/**/*.ts": [
       "npm run lint",
       "npm run fix",
       "git add"
