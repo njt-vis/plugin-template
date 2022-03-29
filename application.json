@@ -1,0 +1,11 @@
+{
+  "name": "vis-charts",
+  "type": "SIDEBAR_ITEM",
+  "version": "0.0.0",
+  "description": "图表组件库",
+  "private": true,
+  "displayName": "图表",
+  "engines": {
+    "vis": "1.0.0"
+  }
+}
